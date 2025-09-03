@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --bg:#fff;--bg-subtle:#f5f7fb;--text:#0b1526;--muted:#5b6b83;
   --border:#e8edf6;--brand:#3a86ff;--brand-weak:#e8f1ff;--shadow:0 10px 25px rgba(16,24,40,.08);
