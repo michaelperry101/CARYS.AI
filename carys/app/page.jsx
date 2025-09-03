@@ -1,0 +1,1 @@
+export const metadata={title:'Carys — Terms'};export default function Page(){return(<div className='section'><div className='card' style={{padding:24}}><h2>Terms of Service</h2><p>Replace with your terms.</p></div></div>);}
