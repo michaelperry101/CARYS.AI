@@ -1,0 +1,1 @@
+export const metadata={title:'Carys — About'};export default function Page(){return(<div className='section'><div className='card' style={{padding:24}}><h2>About Carys</h2><p>Conversational Assistant — Responsive, Yielding Solutions.</p></div></div>);}
