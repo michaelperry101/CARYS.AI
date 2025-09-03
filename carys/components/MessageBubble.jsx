@@ -1,0 +1,1 @@
+export default function MessageBubble({from='bot',children}){return(<div className={`bubble ${from==='me'?'me':''}`}>{children}</div>);}
