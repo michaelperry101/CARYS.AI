@@ -1,1 +1,0 @@
-export const metadata={title:'Carys — Success'};export default function Page(){return(<div className='section'><div className='card' style={{padding:24}}><h2>Payment Successful</h2><p>Thanks for your purchase!</p></div></div>);}
