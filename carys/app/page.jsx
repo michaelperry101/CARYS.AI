@@ -1,1 +1,0 @@
-export const metadata={title:'Carys — Privacy'};export default function Page(){return(<div className='section'><div className='card' style={{padding:24}}><h2>Privacy Policy</h2><p>Replace with your policy.</p></div></div>);}
