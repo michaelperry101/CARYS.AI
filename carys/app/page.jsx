@@ -1,27 +1,23 @@
-// app/page.jsx (SERVER component - no "use client")
-import Link from "next/link";
+export const metadata = {
+  title: "Carys — Your Helpful AI",
+  description: "Conversational Assistant Responsive Yielding Solutions",
+};
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="mx-auto max-w-5xl px-6 py-16">
-      <h1 className="text-4xl font-bold mb-4">Welcome to Carys</h1>
-      <p className="text-lg mb-8">
-        Your Conversational Assistant for responsive, yielding solutions.
-      </p>
-      <div className="flex gap-4">
-        <Link
+    <main className="min-h-screen bg-white">
+      <section className="mx-auto max-w-4xl px-6 py-16">
+        <h1 className="text-4xl font-bold text-gray-900">Meet Carys</h1>
+        <p className="mt-4 text-lg text-gray-600">
+          Conversational Assistant Responsive Yielding Solutions.
+        </p>
+        <a
           href="/chat"
-          className="rounded-lg px-5 py-3 bg-blue-600 text-white font-medium"
+          className="inline-block mt-8 rounded-xl px-6 py-3 font-semibold bg-blue-500 text-white shadow"
         >
           Start chatting
-        </Link>
-        <Link
-          href="/about"
-          className="rounded-lg px-5 py-3 border border-gray-300"
-        >
-          Learn more
-        </Link>
-      </div>
+        </a>
+      </section>
     </main>
   );
 }
