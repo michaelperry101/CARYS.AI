@@ -1,19 +1,27 @@
+// app/page.jsx (SERVER component - no "use client")
 import Link from "next/link";
-export const metadata = { title: "Carys — Home" };
-export default function HomePage() {
-  return (<>
-    <section className="home-hero card">
-      <h1 className="hero-title">Meet <span style={{ color: "var(--brand)" }}>Carys</span>.</h1>
-      <p className="hero-sub">Conversational Assistant — Responsive, Yielding Solutions. A clean, credible chat experience with voice.</p>
-      <Link href="/chat" className="cta">💬 Start chatting</Link>
-    </section>
-    <section className="section">
-      <div className="settings-grid">
-        <div className="card" style={{ padding: 20 }}><h3 style={{ marginTop: 0 }}>Fast</h3><p>Snappy UI, deploys cleanly on Vercel.</p></div>
-        <div className="card" style={{ padding: 20 }}><h3 style={{ marginTop: 0 }}>Voice</h3><p>Optional ElevenLabs text-to-speech.</p></div>
-        <div className="card" style={{ padding: 20 }}><h3 style={{ marginTop: 0 }}>Auth</h3><p>Google or Email sign-in via NextAuth.</p></div>
-        <div className="card" style={{ padding: 20 }}><h3 style={{ marginTop: 0 }}>Payments</h3><p>Stripe Checkout subscription on Subscribe.</p></div>
+
+export default function Home() {
+  return (
+    <main className="mx-auto max-w-5xl px-6 py-16">
+      <h1 className="text-4xl font-bold mb-4">Welcome to Carys</h1>
+      <p className="text-lg mb-8">
+        Your Conversational Assistant for responsive, yielding solutions.
+      </p>
+      <div className="flex gap-4">
+        <Link
+          href="/chat"
+          className="rounded-lg px-5 py-3 bg-blue-600 text-white font-medium"
+        >
+          Start chatting
+        </Link>
+        <Link
+          href="/about"
+          className="rounded-lg px-5 py-3 border border-gray-300"
+        >
+          Learn more
+        </Link>
       </div>
-    </section>
-  </>);
+    </main>
+  );
 }
