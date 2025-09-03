@@ -1,0 +1,1 @@
+export const metadata={title:'Carys — Reviews'};export default function Page(){return(<div className='section'><div className='card' style={{padding:24}}><h2>User Reviews</h2><p>Add testimonials here.</p></div></div>);}
