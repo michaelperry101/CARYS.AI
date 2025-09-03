@@ -1,0 +1,1 @@
+export const metadata={title:'Carys — Cancel'};export default function Page(){return(<div className='section'><div className='card' style={{padding:24}}><h2>Payment Cancelled</h2><p>Your transaction was cancelled.</p></div></div>);}
